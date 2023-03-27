@@ -18,8 +18,3 @@
 #### [#14326](https://github.com/ApolloAuto/apollo/issues/14326)
 - 请求对阿波罗-射频内核进行性能分析方法
 
-
-#### [#14302 ](https://github.com/ApolloAuto/apollo/issues/14302)
-
-
-
