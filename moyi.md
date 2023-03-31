@@ -161,17 +161,63 @@
 - modules/perception/fusion/lib/data_association/hm_data_association/hm_tracks_objects_match.cc坐标不明确
 - #学习问题 
 
+#### [#13927](https://github.com/ApolloAuto/apollo/issues/13927)
+- 在检查每个障碍物的横向位置时，代码使用过大的阈值（kLateralShift = 2.5m
+- ubuntu 18.04TLS,apollo 5.0
+- 在变道时会检测相邻两条车道
+
+
 #### [#13926](https://github.com/ApolloAuto/apollo/issues/13926)
 - 停车标志场景中的错误意图推断
 - 停放的越野自行车被添加到观察列表中。由于自行车是静态的，它永远不会离开观察列表
 - apollo 5.0
 - #代码问题 
 
+#### [#13904](https://github.com/ApolloAuto/apollo/issues/13904)
+- 左侧参考线已被障碍物占据。正确的参考线可用。问题是我怎样才能向右改变
+
 #### [#13888](https://github.com/ApolloAuto/apollo/issues/13888)
-- 共享内存泄漏
+- 当 'Segment：:D estroy（）' 被执行  
+时 SegmentContainer->SegmentPtr->SegmentPtr->State->ReductionReferenceCounts（）  
+reference_counts不为零
+- 通过ipcs检测到共享内存泄露
 - #代码问题 
 
+#### [#13860](https://github.com/ApolloAuto/apollo/issues/13860)
+- 请求对routeting.proto中RoadSegment，Passage和LaneSegment关系解释
+- #学习问题 
 
+#### [#13857](https://github.com/ApolloAuto/apollo/issues/13857)
+- ubuntu 20.04 apollo 5.5
+- 运行时udp_bridge_muti_receiver报错，报错代码0616
+
+#### [#13850](https://github.com/ApolloAuto/apollo/issues/13850)
+- ego汽车在设置目的地为负时，无法开启自动驾驶测试
+
+#### [#13843](https://github.com/ApolloAuto/apollo/issues/13843)
+- 在apollo5.0中“side pass"场景被删除，询问去向
+
+#### [#13837](https://github.com/ApolloAuto/apollo/issues/13837)
+- Ubuntu 18.04，Apollo3.0(docker)
+- PNC监视器无法显示LATTICE planner的图形
+
+#### [#13827](https://github.com/ApolloAuto/apollo/issues/13827)
+- apollo 6.0
+- 在piecewise_jerk_path_optimizer.cc和piecewise_jerk_speed_optimizer.cc中使用的CalculateKernel函数算法有bug
+
+#### [#13824](https://github.com/ApolloAuto/apollo/issues/13824)
+- is_obs_first_traj_pt/ is_caution_obstacle/ obs_caution_end_t文件调用了"low road right"询问”low road right“是什么用的
+- #学习问题 
+
+#### [#13818](https://github.com/ApolloAuto/apollo/issues/13818)
+- 在*curve_math.cc*中曲率导数公式是错误，本应该是2.5次方，而写的是3次方
+- #代码问题 
+
+#### 
+
+
+
+---
 
 #### [#13440](https://github.com/ApolloAuto/apollo/issues/13440)
 - 想要对Apollo各种模块的IO进行性能分析,请求指导建议。
