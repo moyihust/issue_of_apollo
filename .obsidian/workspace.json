@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1eee4d2fb85b9429",
+            "id": "dd51ebda47d825c1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#代码问题",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -146,9 +146,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e78a4abd8017adfc",
+  "active": "dd51ebda47d825c1",
   "lastOpenFiles": [
-    "README.md",
-    "moyi.md"
+    "main.md",
+    "moyi.md",
+    "wj",
+    "Pasted image 20230401230131.png",
+    "Pasted image 20230401230126.png",
+    "Pasted image 20230401230121.png",
+    "Pasted image 20230401230043.png",
+    "conflict-files-obsidian-git.md",
+    "README.md"
   ]
 }
