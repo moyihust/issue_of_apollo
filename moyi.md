@@ -1,7 +1,9 @@
 # Apollo issues
 
 可能出现的简写：
+
 自动驾驶车辆，Autonomous Vehicle（AV）
+
 自动驾驶，Autonomous Driving（AD）
 
 #### [#5803](https://github.com/ApolloAuto/apollo/issues/5803)
@@ -10,26 +12,25 @@
 
 #### [#14347](https://github.com/ApolloAuto/apollo/issues/14347)
 - msf_localization组件启动失败，原因如下：反射贴图文件夹无效
-- #配置问题
+
+应该是配置问题
 
 #### [#14326](https://github.com/ApolloAuto/apollo/issues/14326)
 - linux的perf对apollo-rt不起作用
-- #学习问题
+- 请求帮助
 
 #### [#14302 ](https://github.com/ApolloAuto/apollo/issues/14302)
 - apollo5.0版本
 - 配置drawview因为权限问题无法打开
-- #配置问题 
 
 #### [#14291](https://github.com/ApolloAuto/apollo/issues/14291)
 - apollo6.0
 - cyber_visualizer无法放大或缩小
 - `export MESA_GL_VERSION_OVERRIDE=3.3`参数不对
-- #配置问题 
 
 #### [#14262](https://github.com/ApolloAuto/apollo/issues/14262)
 - 为什么激光雷达探测结果偏航角减去四分之一 π
-- #学习问题 
+- 数学问题
 
 #### [#14248](https://github.com/ApolloAuto/apollo/issues/14248)
 - 如何获取模型源文件
@@ -38,16 +39,14 @@
 #### [#14235](https://github.com/ApolloAuto/apollo/issues/14235)
 - /reference_line模块，发现 QP 求解器可能会返回不满足约束的解
 - 求解器可能无法找到最优解并返回次优解
-- #代码问题
 
 #### [#14224](https://github.com/ApolloAuto/apollo/issues/14224)
 - 需要改进描述深度图像的文档。
 - 可以改进
-- #学习问题 
 
 #### [#14217](https://github.com/ApolloAuto/apollo/issues/14217)
 - 启用D-kit时报错“MSF_LOCAL_LIDAR_OUT_OF_MAP
-- #配置问题
+- 配置问题
 
 #### [#14207](https://github.com/ApolloAuto/apollo/issues/14207)
 - 询问延迟和模块延迟的定义和计算方法
@@ -55,6 +54,7 @@
 #### [#14187 ](https://github.com/ApolloAuto/apollo/issues/14187)
 - apollo 5.0
 - 优化过程协方差矩阵Q和测度协方差矩阵R的分布
+<<<<<<< HEAD
 - #学习问题 
 
 #### [ #14172](https://github.com/ApolloAuto/apollo/issues/14172)
@@ -336,6 +336,7 @@ reference_counts不为零
 
 ---
 
+
 #### [#13440](https://github.com/ApolloAuto/apollo/issues/13440)
 - 想要对Apollo各种模块的IO进行性能分析,请求指导建议。
 - #学习问题
@@ -459,6 +460,39 @@ reference_counts不为零
 - 感知模块启动崩溃
 - 分别启动模块，定位问题
 - #配置问题
+
+#### [#13266](https://github.com/ApolloAuto/apollo/issues/13266)
+
+- 询问如何输出RSS信息
+- #学习问题
+
+#### [#13248](https://github.com/ApolloAuto/apollo/issues/13248)
+
+- canbus通信的不同波特率之间有什么关系
+- 给不同设备使用
+- #学习问题
+
+#### [#13228](https://github.com/ApolloAuto/apollo/issues/13228)
+
+- 增加障碍物出现意外情况
+- #代码问题
+
+#### [#13205](https://github.com/ApolloAuto/apollo/issues/13205)
+
+- 如何在vscode中调试apollo
+- 在docker环境调试就不用其余配置
+- #学习问题
+
+#### [#13180](https://github.com/ApolloAuto/apollo/issues/13180)
+
+- 某次代码提交将start_time移动到其他位置，感到困惑
+- #学习问题
+
+
+
+
+
+
 
 
 
