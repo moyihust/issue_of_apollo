@@ -213,9 +213,126 @@ reference_counts不为零
 - 在*curve_math.cc*中曲率导数公式是错误，本应该是2.5次方，而写的是3次方
 - #代码问题 
 
-#### 
+#### [#13817](https://github.com/ApolloAuto/apollo/issues/13817)
+- 询问如何将计划模型导出成其他标准
+- apollo6.0
+
+#### [#13812](https://github.com/ApolloAuto/apollo/issues/13812)
+- 在控制代码中的加速公式和modules/common/math/cartesian_frenet_conversion.cpp的不一致
+- #代码问题 
+
+#### [#13811](https://github.com/ApolloAuto/apollo/issues/13811)
+- ubuntu 20.04 apollo6.0
+- 尝试在aarch64上运行talker/listener没有成功
+
+#### [ #13807](https://github.com/ApolloAuto/apollo/issues/13807)
+- lateral_error一旦赋值NAN则不会变，且下次测试时还存在。
+- 建议在每次测试前检查x_values的值
+
+#### [#13794](https://github.com/ApolloAuto/apollo/issues/13794)
+- apollo6.0
+-  [modules/audio/common/BUILD](https://github.com/ApolloAuto/apollo/blob/r6.0.0/modules/audio/common/BUILD#L6)依赖@com_github_gflags_gflags//:gflags丢失
+- #代码问题 
+
+#### [#13792](https://github.com/ApolloAuto/apollo/issues/13792)
+- 询问[lane_detection_component.cc#L528-L541](https://github.com/ApolloAuto/apollo/issues/url)中的project_matrix和pitch_diff类的含义
+
+#### [#13790](https://github.com/ApolloAuto/apollo/issues/13790)
+- ubuntu18.04 apollo6.0
+- speed_optimizer_problem.cc 中的连续约束代码和论文不同
+- ![[Pasted image 20230401230121.png]]
+- ![[Pasted image 20230401230131.png]]
+
+#### [#13786](https://github.com/ApolloAuto/apollo/issues/13786)
+- ```./cyber/service_discovery/communication/participant_listener.h:34:33: error: 'ParticipantDiscoveryInfo' in namespace 'eprosima::fastrtps' does not name a typeconst eprosima::fastrtps::ParticipantDiscoveryInfo& info)>;```
+- fast-rtps改名为fastDDS,询问是否有计划升级为fastDDS
+
+#### [#13776](https://github.com/ApolloAuto/apollo/issues/13776)
+- Ubuntu 20.04 apllo6.0
+- msf在本地部署时无法启动
+
+#### [#13772](https://github.com/ApolloAuto/apollo/issues/13772)
+- ubuntu 16.04 apollo6..0
+- 修改robosencse驱动模块以支持RS-M1雷达，发现apllo点云强度越大被认为越暗。
+
+#### [#13770](https://github.com/ApolloAuto/apollo/issues/13770)
+- 如何将训练好的点柱模型转换为 Apollo6.0 所需的 onnx 模型
 
 
+#### [#13758](https://github.com/ApolloAuto/apollo/issues/13758)
+- 预测轨迹点有时超过定义的prediction_trajectory_time_length
+
+#### [#13715](https://github.com/ApolloAuto/apollo/issues/13715)
+- 在文件modules/perception/production/data/perception/camera/models/omt_obstacle_tracker/config.pt推测large_velocity_ratio和too_large_velocity_ratio的参数设反了
+
+#### [#13703](https://github.com/ApolloAuto/apollo/issues/13703)
+- 本地部署msf模块时没有打印输出
+- ubuntu18.04 apollo5.5
+
+#### [#13662](https://github.com/ApolloAuto/apollo/issues/13662)
+- 询问是否支持Nvidia SLI
+
+#### [Issue #13658](https://github.com/ApolloAuto/apollo/issues/13658)
+- Ubuntu 20.04，NVIDIA Quadro T1000，CUDA 11.2
+- 在本地环境下无法使用GPU启动apollo
+
+#### [#13657](https://github.com/ApolloAuto/apollo/issues/13657)
+- 希望提供激光雷达-IMU校准指南的资料
+- #学习问题 
+
+#### [#13653](https://github.com/ApolloAuto/apollo/issues/13653)
+- Ubuntu 18.04 apollo5.5
+- 疑惑ROI区域，是否会把树叶识别为障碍物
+- #学习问题 
+
+#### [#13650](https://github.com/ApolloAuto/apollo/issues/13650)
+- Ubuntu 18.04 Apollo6.0
+- 如何使用自己的基于集合的预测替代障碍物的预测，以及能否改变box2d为多边形障碍物进行碰撞检测
+- #学习问题 
+
+#### [#13636](https://github.com/ApolloAuto/apollo/issues/13636)
+- 接近停止阶段控制加速存在错误
+- https://github.com/ApolloAuto/apollo/blob/af69c59514d0539d8ac7859c394b108d1999dc8b/modules/control/controller/lon_controller.cc#L273-L291
+- 加速度本该选择较为平滑的值
+- #代码问题 
+
+#### [#13634](https://github.com/ApolloAuto/apollo/issues/13634)
+- 询问“cartesian_to_frenet”功能中的参数的含义是什么
+- #学习问题 
+
+#### [#13630](https://github.com/ApolloAuto/apollo/issues/13630)
+- 本地启动msf可视化时无输出
+- #配置问题 
+
+#### [#13598](https://github.com/ApolloAuto/apollo/issues/13598)
+- 相机到相机和相机到激光雷达校准工具，工具本身是预先编译的，希望开源或提供对应论文
+- #学习问题 
+
+
+#### [#13530](https://github.com/ApolloAuto/apollo/issues/13530)
+- apolllo6.0如何运行navigation_mode
+- #学习问题 
+
+#### [#13524](https://github.com/ApolloAuto/apollo/issues/13524)
+- curve_image_coord设置在哪里
+- #学习问题 
+
+#### [#13519](https://github.com/ApolloAuto/apollo/issues/13519)
+- 希望不同用户启动不同模块失败
+- #配置问题 
+
+#### [#13507](https://github.com/ApolloAuto/apollo/issues/13507)
+- 怎么辨识自己的车子的转向响应模型
+- #学习问题 
+
+#### [#13480](https://github.com/ApolloAuto/apollo/issues/13480)
+- Ubuntu18.04 apollo6.0
+- 在尝试sim控制时，遇到了一些潜在的安全违规行为
+- #代码问题 
+
+#### [#13466 ](https://github.com/ApolloAuto/apollo/issues/13466)
+- 询问让感知模块使用Ouster传感器工作
+- #学习问题 
 
 ---
 

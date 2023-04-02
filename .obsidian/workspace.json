@@ -18,33 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "e1fc35634625e2a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "moyi.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9332924de27a1f82",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "moyi.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "9eedaa607dd696f1",
@@ -172,10 +146,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e78a4abd8017adfc",
+  "active": "dd51ebda47d825c1",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Pasted image 20230401230131.png",
+    "Pasted image 20230401230126.png",
+    "Pasted image 20230401230121.png",
+    "Pasted image 20230401230043.png",
+    "main.md",
     "moyi.md",
+    "conflict-files-obsidian-git.md",
     "README.md"
   ]
 }
